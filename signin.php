@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>NU Sign In</title>
-  
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -29,7 +29,7 @@ iframe:hover{
 <body>
   <!-- Navigation & Intro -->
     <header>
-      
+
 <div class="row">
 <div class="col-md-4"></div>
 <div class="col-md-4 col-sm-12">
@@ -44,7 +44,7 @@ iframe:hover{
       <?php include('retrive.php'); ?>
 
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="myForm" name="myForm">
-            
+
             <div class="md-form">
                 <input type="email" id="email" name="email" class="form-control form-input" style="align-content: center;" value="<?php echo $email ?>">
                 <label for="email">Email</label>
@@ -65,7 +65,7 @@ iframe:hover{
         </form>
     </div>
 </div>
-  
+
   <!--  JQuery  -->
     <script type="text/javascript" src="https://mdbootstrap.com/previews/templates/landing-page/js/jquery-3.3.1.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js'></script>
